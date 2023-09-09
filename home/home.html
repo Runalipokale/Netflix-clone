@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - innerpage</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="https://kit.fontawesome.com/83f73840f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/home/home.css">
+    <link rel="stylesheet" href="/home/utils.css">
+    <link rel="shortcut icon" href="/Image/netflix favicon (2).png" type="image/x-icon">
+</head>
+<body>
+    <div class="hero-sec">
+    <header class="flex space-between">
+        <div class="left-nav flex mx-3">
+            <img class="logo" src="/Image/Netflix_Logo_PMS.png" alt="LOGO">
+            <nav class="mt-2 mx-3">
+                <a href="/home/home.html">Home</a>
+                <a href="/home/home.html">TV Shows</a>
+                <a href="/home/home.html">Movies</a>
+                <a href="/home/home.html">New & Popular</a>
+                <a href="/home/home.html">My List</a>
+                <a href="/home/home.html">Browse by Languages</a>
+            </nav>
+        </div>
+        <div class="right-nav flex space-between mt-2 mx-2">
+            <span class="search-icon">
+                <svg id="search-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" 
+                data-name="Search">
+                <path fill-rule="evenodd" clip-rule="evenodd" 
+                d="M14 11C14 14.3137 11.3137 17 8 17C4.68629 17 2 14.3137 2 11C2 7.68629 4.68629 5 8 5C11.3137 5 
+                14 7.68629 14 11ZM14.3623 15.8506C12.9006 17.7649 10.5945 19 8 19C3.58172 19 0 15.4183 0 11C0 6.58172 
+                3.58172 3 8 3C12.4183 3 16 6.58172 16 11C16 12.1076 15.7749 13.1626 15.368 14.1218L24.0022 19.1352L22.9979 
+                20.8648L14.3623 15.8506Z" fill="currentColor"></path>
+                </svg>
+                <!-- <input type="text" id="input" placeholder="title,movies,Tv shows"> -->
+            </span>
+            <span><a href="#">Children</a></span>
+            <span>
+            <span class="bell-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" 
+                 data-name="Notification">
+                <path fill-rule="evenodd" clip-rule="evenodd" 
+                d="M13 4.07092C16.3922 4.55624 18.9998 7.4736 18.9998 11V15.2538C20.0486 15.3307 21.0848 15.4245 
+                22.107 15.5347L21.8926 17.5232C18.7219 17.1813 15.409 17 11.9998 17C8.59056 17 5.27764 17.1813 
+                2.10699 17.5232L1.89258 15.5347C2.91473 15.4245 3.95095 15.3307 4.99978 15.2538V11C4.99978 7.47345
+                 7.6076 4.55599 11 4.07086V2L13 2V4.07092ZM16.9998 15.1287V11C16.9998 8.23858 14.7612 6 11.9998 
+                 6C9.23836 6 6.99978 8.23858 6.99978 11V15.1287C8.64041 15.0437 10.3089 15 11.9998 15C13.6907 15 
+                 15.3591 15.0437 16.9998 15.1287ZM8.62568 19.3712C8.6621 20.5173 10.1509 22 11.9993 22C13.8477 22 
+                 15.3365 20.5173 15.373 19.3712C15.38 19.1489 15.1756 19 14.9531 19H9.04555C8.82308 19 8.61862 19.1489 
+                 8.62568 19.3712Z" fill="currentColor"></path>
+                </svg>
+            </span>
+                <div class="notify-container">
+                    <div class="notify-img center mx-1">
+                        <img src="/Image/notification-img.png" alt="">
+                    </div>
+                    <div class="notification my-3 mx-1">
+                        <h3>Netflix Lookahead</h3>
+                        <h3>Explore what comming soon.</h3>
+                        <h5>1 day ago</h5>
+                    </div>
+                </div>
+            </span>
+            <!-- <span> -->
+            <div class="profile flex">
+                <span><img src="/image/profile-pic_inner-html.png" alt="profile"></span>
+                <span class="updown-caret"><ion-icon name="caret-down-outline"></ion-icon></span>
+            </div>
+            <div class="account-container">
+                <div class="account-field px-1 mt-1">
+                    <div class="ac-item mt-2"><img class="ac-icon" src="/Image/children-profile.png" alt=""><a href="#">Children</a></div>
+                </div>
+                <div class="account-field px-1 py-1">
+                    <div class="ac-item mt-1"><ion-icon class="ac-icon" name="pencil"></ion-icon><a href="#">Manage Profile</a></div>
+                    <div class="ac-item mt-2"><ion-icon class="ac-icon" name="sync-outline"></ion-icon><a href="#">Transfer Profile</a></div>
+                    <div class="ac-item mt-2"><ion-icon class="ac-icon" name="person-outline"></ion-icon><a href="#">Account</a></div>
+                    <div class="ac-item mt-2"><ion-icon class="ac-icon" name="help-circle-outline"></ion-icon><a href="#">Help Center</a></div>
+                </div>
+                <hr>
+                <div class="account-field px-1 py-1 center">
+                    <div class="ac-item mt-3"><a href="#">Sign out of Netflix</a></div>
+                </div>
+            </div>
+            </span>
+        </div>
+    </header>
+    <div class="inner-hero-sec mx-5">
+        <div class="inner-banner">
+            <h3>SERIES</h3>
+            <h1>WEDNESDAY</h1>
+            <div class="inner-banner-text">
+                <p class="banner-text">Smart, sarcastic and a little dead inside, Wednesday Addams investigates a murder spree 
+                while making new friends - and foes - at Nevermore Academy.</p>
+                <div class="inner-banner-btn mt-2">
+                    <a href="/video/wednesday.clip.mp4"><button class="btn btn-play"><ion-icon name="play"></ion-icon>Play</button></a>
+                    <button class="btn btn-info"><ion-icon name="information-circle-outline"></ion-icon>More Info</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <main>
+    <div class="carousel mx-5 my-5">
+        <h3>New Release</h3>
+        <div class="carousel-container">
+            <div class="carousel-list flex">
+                <div class="carousel-item">
+                    <a href="/video/Alive.mp4"><img src="/image/horror-alive.jpg" alt=""></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/video/Money_Heist.mp4"><img src="/image/money-heist.jpg" alt=""></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/video/Wish_Dragon.mp4"><img src="/image/wish-dragon.jpg" alt=""></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/video/Squid_Game.mp4"><img src="/image/squid-game.jpg" alt=""></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/video/the vampire diaries.mp4"><img src="/image/thevampirediaries.webp" alt=""></a>
+                </div>
+                <div class="carousel-item">
+                    <a href=""><img src="/image/never-have-i-ever.jpg" alt=""></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/video/Annabelle.mp4"><img src="/image/annebella.webp" alt=""></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/video/gangubai.mp4"><img src="/image/popular-gangubai.webp" alt=""></a>
+                </div>
+                <div class="carousel-item">
+                    <a href=""><img src="/image/friends.webp" alt=""></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="/video/kantara.mp4"><img src="/image/popular-kantrara.webp" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel mx-5 my-5">
+        <h3>TV shows & Movies</h3>
+        <div class="carousel-container">
+            <div class="carousel-list flex">
+                <div class="carousel-item">
+                    <img src="/image/kids-oggy.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/kids-rango.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/wish-dragon.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/kids-doreamon-movie.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/comedy-yes-day.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/kids-tom&jerry.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/comedu-don.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/kids-hotel-transylvania 2.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/madagascar.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/popular-83.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel mx-5 my-5">
+        <h3>Horror</h3>
+        <div class="carousel-container">
+            <div class="carousel-list flex">
+                <div class="carousel-item">
+                    <img src="/image/annebella.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/horror-bhoolbullaiya2.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/the-conjuring2.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/lucifer.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/thevampirediaries.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/the-conjuring.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/horror-alive.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/annebella.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/the-conjuring2.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/horror-bhoolbullaiya2.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel mx-5 my-5">
+        <h3>Comedies</h3>
+        <div class="carousel-container">
+            <div class="carousel-list flex">
+                <div class="carousel-item">
+                    <img src="/image/comedu-don.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/comedy-yes-day.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/friends.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/horror-bhoolbullaiya2.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/kids-oggy.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/the-baby-boss.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/kids-tom&jerry.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/kids-rango.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/kids-lyle-crocodile.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/kids-hotel-transylvania 2.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel mx-5 my-5">
+        <h3>Popular</h3>
+        <div class="carousel-container">
+            <div class="carousel-list flex">
+                <div class="carousel-item">
+                    <img src="/image/money-heist.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/popular-sir.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/squid-game.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/popular-kantrara.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/popular-gangubai.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/popular-83.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/strangers-thing.jpg" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/kids-rango.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/thevampirediaries.webp" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="/image/madagascar.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <div class="footer-icons flex">
+        <i class="fa-brands fa-facebook-f fa-xl px-2" style="color: #fff;"></i>
+        <i class="fa-brands fa-instagram fa-xl  px-2" style="color: #fff;"></i>
+        <i class="fa-brands fa-twitter fa-xl  px-2" style="color: #fff;"></i>
+        <i class="fa-brands fa-youtube fa-xl  px-2" style="color: #fff;"></i>
+        </div>
+<div class="flex my-1 px-1 space-between footer-links">
+<div>
+  <ul>
+    <li><a href="/feedback/feedback.html">Feedback</a></li>
+    <li><a href="">Investor Relation</a></li>
+    <li><a href="">Legal notice</a></li>
+  </ul>
+</div>
+<div>
+    <ul>
+        <li><a href="https://help.netflix.com/en/">Help Center</a></li>
+        <li><a href="https://jobs.netflix.com/">Jobs</a></li>
+        <li><a href="https://help.netflix.com/legal/corpinfo">Cookie Preferences</a></li>
+    </ul>
+</div>
+<div>
+    <ul>
+        <li><a href="">Gift Cards</a></li>
+        <li><a href="https://help.netflix.com/legal/termsofuse">Terms Of Use</a></li>
+        <li><a href="">Corporate Information</a></li>
+    </ul>
+</div>
+<div>
+    <ul>
+        <li><a href="">Media Center</a></li>
+        <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+        <li><a href="https://help.netflix.com/en/contactus">Contact Us</a></li>
+    </ul>
+</div>
+</div>
+<button id="service-code">Service Code</button>
+<div id="copyright"> © 1997-2023 Netflix, Inc.</div>
+</footer>
+    <div class="video-container flex center">
+        <div class="color-overlay"></div>
+        <video autoplay loop muted  id="video-source">
+            <source  src="/video/wednesday.clip.mp4">
+        </video>
+    </div>
+
+    <script src="/public/script.js"></script>
+</body>
+</html>
+

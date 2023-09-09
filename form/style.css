@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #fff;
+}
+.wrapper{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(/Image/header-image.png);
+    height: 150vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.logo img{
+    height: 5.3rem;
+    filter: contrast(130%);
+}
+.sign-in-body{
+    background-color:rgba(0, 0, 0, 0.781);
+    margin: 0 34% 0 34%;
+    height: 120vh;
+    border-radius: 6px;
+    width: 30vw;
+}
+.sign-in-box{
+    padding: 60px 60px 0 60px;
+}
+.field{
+    margin-bottom: 20px;
+    position: relative;
+}
+.field input{
+    background-color: rgb(64, 64, 64);
+    font-size: 1rem;
+    height: 2rem;
+    width: 100%;
+    padding: 25px;
+    outline: none;
+    border: 1px solid rgb(64, 64, 64);
+    border-radius: 6px;
+}
+.field input:valid ~label,
+.field input:focus ~label{
+    transform: translateY(-50%);
+    font-size: 0.7rem;
+    top: -55px;
+}
+.field input:focus{
+    border-bottom: 2px solid rgba(255, 166, 0, 0.975)!important; 
+}
+.field label{
+    top: -33px;
+    left: 25px;
+    pointer-events: none;   
+    position: relative;
+    transition: 0.5s;
+    color: rgb(184, 184, 184);
+}
+.field span{
+    color: rgba(255, 166, 0, 0.975);
+    font-size: 13px;
+}
+button{
+    width: 100%;
+    background-color: rgba(211, 10, 10, 0.836);
+    border: none;
+    padding: 25px;
+    height: 2rem;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.remember input{
+    margin-right: -150px;
+    margin-left: 10px;
+}
+.remember{
+    font-size: 0.8rem;
+    color: rgb(144, 144, 144);
+}
+.remember a{
+    margin-right: 13px ;
+    text-decoration: none;
+    color: rgb(144, 144, 144);
+}
+.bottom-text1{
+    margin-top: 25%;
+}
+.bottom-text1 span{
+    font-size: 1rem;
+}
+.bottom-text1 a{
+    text-decoration: none;
+    font-weight: 400;
+}
+.bottom-text2{
+    margin-top: 5%;
+}
+.bottom-text2 a{
+    text-decoration: none;
+    color: rgb(21, 88, 146);
+    font-size: 0.8rem;
+}
+a:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    height:60vh;
+    font-weight: 100;
+}
+ul{
+    list-style-type: none;
+}
+.container{
+    justify-content: space-between;
+}
+footer li{
+    margin-top: 10px;
+}
+form select{
+    width:8rem;
+    height: 2rem;
+}

@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    font-size: 15px;
+    background-color: #030303;
+}
+header{
+    position: sticky;
+    background: linear-gradient(to bottom , rgba(0, 0, 0, 0.90),rgba(0,0,0,0));
+}
+main{
+    background-color: #030303;
+    box-shadow: 0 -100px 80px rgba(0, 0, 0, 10);
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    height: 4rem;
+    filter: contrast(130%);
+}
+.left-nav nav a{
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+}
+.right-nav span , a{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+.right-nav svg{
+    margin-top: -3px;
+}
+.right-nav .profile-img {
+    margin-top: -6px;
+    border-radius: 3px;
+}
+header .left-nav a:hover{
+    color: #ffffff7b;
+    transition: 0.5s;
+}
+.hero-sec{
+    height: 100vh;
+    box-shadow: 0 200px 100px rgba(0, 0, 0, 0.722);
+}
+
+.inner-hero-sec{
+    margin-top: 15%;
+    max-width: 45%;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: #fff;
+}
+.inner-banner h3{
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+}
+.inner-banner h1{
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+.btn{
+    width: 9vw;
+    height: 6.5vh;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 550;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn-play{
+    background-color: #fff;
+    color: #030303;
+}
+.btn-info{
+    background-color: #494747d2;
+    color: #fff;
+}
+.btn ion-icon{
+    font-size: 30px;
+    margin-bottom: -9px;
+}
+#input{
+    display: none;
+    background-color:black;
+    width: 25vw;
+    height: 2rem;
+    color: #fff;
+    transition: width 2s;
+}
+#input:hover{
+        width: 300px;
+}
+.search-icon{
+        cursor: pointer;
+        margin: 0 0 5px 5px;
+}
+.carousel h3{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.carousel{
+    overflow: scroll;
+    height: 30vh;
+}
+.carousel-item{
+    padding: 5px;    
+}
+.carousel-item img{
+    width: 250px;
+    height: 140px;
+    border-radius: 3px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.carousel-item img:hover{
+    transform: scale(1.5,1.5);
+    transition: 0.5s ease ;
+}
+.carousel-list .button{
+    height: 100px;
+    align-items: center;
+    font-size: 40px;
+    z-index: 5;
+}
+.carousel-list .button .prev,.next{
+    position: absolute;
+    left: 0;
+    width: 40px;
+    text-align: center;
+    background-color: tomato;
+}
+/* .prev{
+    position: absolute;
+    left: 0;
+    background-color: aqua;
+    padding: 2px;
+    height: 140px;
+}
+.next{
+    position: absolute;
+    right: 0;
+    padding: 2px;
+    background-color: aqua;
+    height: 140px;
+} */
+.video-container{
+    width:100%;
+    height: 80vh;
+    position: absolute;
+    z-index: -6;
+    left: 0;
+    top: 0;
+}
+#video-source{
+    width: 100%;
+}
+/* account -profile hover effect */
+.updown-caret{
+    height: 20px;
+}
+.updown-caret :hover{
+    transform: rotate(180deg);
+    transition: 0.5s;
+}
+.account-container{
+    background-color: #030303e6;
+    height: 45vh;
+    width: 15vw;
+    position: absolute;
+    right: 40px;
+    top: 60px;
+    display: none;
+}
+.account-field .ac-item .ac-icon {
+    margin-right: 25px;
+    width: 30px;
+}
+.account-field .ac-item img{
+    border-radius: 3px;
+}
+.profile img{
+    border-radius: 3px;
+}
+.ac-item .ac-icon{
+    font-size: 25px;
+    margin-bottom: -10px;
+    color: #fff;
+}
+.ac-item a:hover{
+    text-decoration: underline;
+}
+.profile:hover ~ .account-container{
+    display: block;
+
+}
+
+
+/* notification hover effect */
+.notify-container{
+    position: absolute;
+    right: 100px;
+    top: 60px;
+    z-index: 1;
+    height: 20vh;
+    background-color: #030303e6;
+    border-top: 3px solid #fff;
+    display: none;
+}
+.notify-img img{
+    height: 70px;
+    width: 100px;
+    border-radius: 3px;
+}
+.bell-icon:hover ~ .notify-container{
+    display: flex;
+}
+footer{
+    height:40vh;
+    color: #888;
+}
+.footer-links{
+    margin: 0 20vw;
+    font-size: 0.8rem;
+}
+.footer-links li{
+   line-height: 2.5;
+   list-style: none;
+}
+.footer-links li a {
+    color: #888;
+}
+.footer-links li a:hover{
+    text-decoration: underline;
+}
+.footer-icons{
+    margin: 3vh 21vw;
+}
+#service-code{
+    background-color:transparent;
+    border: solid 1px #888;
+    color: #888;
+    padding: 0.8rem;
+    margin: 3vh 21vw;
+}
+#copyright{
+    margin: 0 21vw;
+    /* color: #888; */
+}

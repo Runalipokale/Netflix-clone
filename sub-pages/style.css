@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab:wght@300&display=swap');
+
+body{
+    background-color:black;
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 350;
+}
+.bar-icon{
+    cursor: pointer;
+    color: #fff;
+    margin: 24px;
+}
+.arrow{
+   margin-left: auto;
+}
+.menu{
+   width:30vw;
+   background-color: #222;
+   /* height:fit-content; */
+   overflow:scroll;
+   display: none;
+   transition:all 1s linear ease-out;
+}
+.links{
+    list-style: none;
+    width: 100%;
+   
+}
+.links li{
+   padding:15px 0px;
+   text-decoration: none;
+   font-size: 1.8rem;
+   overflow: auto;
+}
+.links li:hover{
+    background-color: #5e5d5d;
+    width: 100%;
+    margin-left: -31px;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+}
+hr{
+    border: 2px solid black;
+}
+/* .blank{
+    background-color: red;
+    width:12px;
+    height:3rem;
+} */
