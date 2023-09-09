@@ -1,0 +1,203 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto+Slab:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+     
+}
+main .sec-2,.sec-3,.sec-4,.sec-5,.bottom-sec,footer{
+    padding: 0 120px;
+    justify-content: center;
+    position:sticky;
+ 
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(/Image/header-image.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.logo img{
+    height: 5.3rem;
+    filter: contrast(130%);
+}
+.right-nav .login{
+    width: 7vw;
+    height: 2rem;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.89);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    justify-content: center;
+}
+.right-nav a{
+    text-decoration: none;
+}
+.right-nav select{
+    width: 10vw;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #ffffff73;
+    background: none;
+    font-size: 0.9rem;
+    padding: 0.2rem 0.3rem;
+}
+.right-nav{
+    height: 2rem;
+    margin-top: 25px;
+    width: 24%;
+}
+nav{
+    margin-left: 11%;
+    margin-right: 11%;
+}
+.middle-heading{
+    margin-top: 12%;
+}
+.heading-1{
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+.heading-2{
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+.heading-3{
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+.email{
+    background: none;
+    height: 4rem;
+    width: 30%;
+    border-radius: 4px;
+    border: 1px solid #ffffff80;
+    padding: 15px;
+    font-size: 1rem;
+    margin: 4px;
+    background-color: rgba(0, 0, 0, 0.578);
+}
+.start{
+    background-color: rgba(255, 0, 0, 0.89);
+    border-radius: 4px;
+    border: none;
+    width: 15%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 4px;
+    height: 4rem;
+}
+#start{
+    background-color: rgba(255, 0, 0, 0.89);
+    border-radius: 4px;
+    border: none;
+    width: 15%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 4px;
+    height: 4rem;
+}
+.text h1{
+    font-size: 3rem;
+}
+.text p{
+    font-size: 1.5rem;
+}
+.sec h1 p{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 2.5rem;
+    padding-left:2.5rem;
+}
+.sec{
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+hr{
+    border: 3.5px solid rgb(52, 51, 51);
+}
+.sec-2 video{
+    position:relative;
+    left: 35.5%; 
+    top:-2.2%;
+    overflow: hidden;
+    height:100%;
+}
+
+.sec-2 img{
+    position:sticky;
+    width:100%;
+
+}
+.bottom-sec{
+    height:105vh;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+.sec-4 video{
+    height: 15rem; 
+    position:relative;  
+    left: 39%; 
+    top:-17%;
+}
+.sec-4 img{
+    position:sticky;
+    
+}
+.box{
+    height: 5rem;
+    background-color: rgb(52, 51, 51);
+    margin-top: 13px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.toggle{
+    font-size: 1.6rem !important;
+    width: 50px;
+    font-weight: 700 !important;
+}
+.content{
+    display: none;
+    transition: all 0.25s cubic-bezier(0.5, 0, 0.1, 1) 0s;
+    cursor: pointer;
+}
+.bottom-sec button{
+    font-size: 3rem;
+    border: none;
+    padding: right 12px;
+    cursor: pointer;
+    background-color: rgb(52, 51, 51);
+}
+#first,#second,#third,#fourth,#fifth,#sixth{
+    display: none;
+}
+#btn{
+    background-color:red;
+    border-radius: 5px;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+.bottom-sec li{
+    list-style: none;
+}
+footer li{
+    list-style: none;
+    line-height: 2;
+}
+footer .container ul{
+    padding:0 8rem;
+}
